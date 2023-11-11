@@ -28,9 +28,9 @@ namespace Estruturas_de_Repetição_e_Recursividade
             }
         }
 
-        static void Main(string[] args)
-        {
-            lerArquivo(1);
-        }
+        /*static void Main(string[] args)
+         {
+        lerArquivo(1);
+        }*/
     }
 }
