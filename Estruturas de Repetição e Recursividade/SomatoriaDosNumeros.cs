@@ -8,22 +8,21 @@ namespace Estruturas_de_Repetição_e_Recursividade
 {
     internal class SomatoriaDosNumeros
     {
-        public static int somatoriaNum(int fim)
+        public static int somatoriaNum(int num)
         {
-          
-            if(fim > 1)
+            if (num == 0)
             {
-                int resul = fim + somatoriaNum(fim - 1); 
-                return resul;
+                return 1;
             }
             else
             {
-                return 0;
+                return num + somatoriaNum(num - 1);
+                
             }
         }
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
-            somatoriaNum( 5);
-        }
+            Console.WriteLine(somatoriaNum(5));
+        }*/
     }
 }
